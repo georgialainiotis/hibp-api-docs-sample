@@ -35,7 +35,7 @@ Read this before making any request outside a browser. Per HIBP's documentation,
 | `429` | Too many requests. Rate limit exceeded. This does not apply to the Pwned Passwords endpoint, which has no rate limit. |
 | `503` | Service unavailable. |
 
-Every example response in this documentation was pulled from the live API, not copied from HIBP's own sample documentation. Where live behavior differed from HIBP's official documentation, the discrepancy is called out in a **Verification Notes** section on the relevant page.
+Every example response in this documentation was pulled from the live API, not copied from HIBP's own sample documentation. Where live behavior differed from HIBP's official documentation, the discrepancy is called out in a **Verification notes** section on the relevant page.
 
 ## Attribution
 
