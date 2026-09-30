@@ -14,9 +14,7 @@
 
 ## Example request
 
-```
-GET https://api.pwnedpasswords.com/range/5BAA6
-```
+`GET https://api.pwnedpasswords.com/range/5BAA6`
 
 ## Example response (excerpt, plain text, not JSON)
 
