@@ -11,7 +11,7 @@
 | `name` | URL path | Yes | The stable breach identifier, for example `Adobe`. Case-insensitive. |
 
 ## Example request
-GET https://haveibeenpwned.com/api/v3/breach/Adobe
+`GET https://haveibeenpwned.com/api/v3/breach/Adobe`
 
 ## Example response
 
