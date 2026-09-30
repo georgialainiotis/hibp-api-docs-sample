@@ -4,11 +4,16 @@ Independent documentation for the free, key-less endpoints of the [Have I Been P
 
 This is a portfolio project. It is not affiliated with or endorsed by Have I Been Pwned or its creator.
 
-## What's included
+## Start here
 
-- **Getting Started guide:** takes a new developer to a working request in about five minutes, with no setup.
-- **API reference:** authentication, error handling, and three endpoints (Get a Single Breach, Get All Data Classes, and the Pwned Passwords range check).
-- **Changelog:** version history for the documentation itself.
+Read the pages in this order:
+
+1. [Overview](docs/overview.md): scope, authentication, the required header, and response codes.
+2. [Getting Started](docs/getting-started.md): a five-minute walkthrough that gets a new developer to a working request with no setup.
+3. [Get a Single Breach](docs/get-a-single-breach.md): full field-by-field reference for the breach-lookup endpoint.
+4. [Get All Data Classes](docs/get-all-data-classes.md): reference for the data-category endpoint.
+5. [Check a Password (Pwned Passwords Range API)](docs/check-a-password.md): reference for the k-anonymity password-check endpoint.
+6. [Changelog](docs/changelog.md): version history for the documentation itself.
 
 ## How it was verified
 
