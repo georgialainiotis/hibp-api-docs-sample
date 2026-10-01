@@ -21,7 +21,7 @@ This is the fastest way to see the API return real data, and it uses the endpoin
    `https://api.pwnedpasswords.com/range/5BAA6`
 
 3. You'll see a long list of lines; each one looks like `{hash-suffix}:{count}`. That's every password hash HIBP knows about that starts with the same 5 characters you sent.
-4. Use your browser's find function (Ctrl+F or Cmd+F) and search for `1E4C9B93F3F0682250B6CF8331B7EE68FD8`. You should find a line ending in a large number: that's how many times the password "password" has appeared in breach data HIBP has collected.
+4. Use your browser's find function (Ctrl+F or Cmd+F) and search for `1E4C9B93F3F0682250B6CF8331B7EE68FD8`. You should find a line ending in a large number: that's how many times "password" has appeared in breach data HIBP has collected.
 
 **What just happened:** `5BAA6` is the first 5 characters of the SHA-1 hash of the word "password". You never sent the actual password, only a small piece of its hash, and the API sent back every match it has for that piece. This is called k-anonymity, and it's explained in more depth on the [Check a Password](check-a-password.md) page.
 
