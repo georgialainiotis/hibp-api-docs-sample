@@ -55,7 +55,6 @@ Field order above reflects the exact order observed in the live response, not an
 | `PwnCount` | number | Total number of accounts loaded into HIBP for this breach. HIBP says this is usually less than the total reported by the media, because of duplicate or invalid data in the source. |
 | `Description` | string (contains HTML) | A human-readable summary of the breach. Live testing confirmed this field routinely contains embedded HTML, including `<em>` tags for emphasis and `<a href="...">` links. Quote marks inside the HTML are JSON-escaped (`\"`) but are ordinary double quotes once parsed. Applications displaying this field should either render it as HTML or strip all tags before displaying it as plain text. |
 | `LogoPath` | string (URL) | A direct link to the breached company's logo image, always in PNG format per HIBP's documentation. HIBP's own sample shows a relative filename (for example, `Adobe.png`), but live testing returned a full absolute URL (`https://logos.haveibeenpwned.com/Adobe.png`), a minor drift between documented sample and live behavior. |
-| `Attribution` | string or null | Credits a source or researcher, when requested by the data provider. Frequently `null`. |
 | `DisclosureUrl` | string or null | Not documented in HIBP's breach model as of this writing, and `null` in every record tested (Adobe and LinkedIn). By its name it likely links to the original public disclosure of the breach, but that is an inference, not a confirmed fact. Do not assume it will contain a usable value. |
 | `DataClasses` | array of strings | The categories of data exposed in this breach (for example, "Passwords" and "Email addresses"). These match the names in the master list returned by the [Data Classes](get-all-data-classes.md) endpoint. |
 | `IsVerified` | boolean | `true` if HIBP has confirmed the breach is legitimate with high confidence. |
@@ -66,6 +65,7 @@ Field order above reflects the exact order observed in the live response, not an
 | `IsMalware` | boolean | `true` if the data came from malware or credential-stealing campaigns rather than a compromise of the company's own systems. |
 | `IsSubscriptionFree` | boolean | Marks a breach as subscription-free. Per HIBP, this flag has no effect on other attributes; it is used only in domain searches where a sufficiently sized subscription is not present. |
 | `IsStealerLog` | boolean | `true` if the breach data came specifically from stealer-log malware, a distinct category from general malware. |
+| `Attribution` | string or null | Credits a source or researcher, when requested by the data provider. Frequently `null`. |
 
 ## Verification notes
 
