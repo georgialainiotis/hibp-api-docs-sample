@@ -24,3 +24,5 @@ Every example was tested against the live API. Where the vendor's published docu
 Technical writer and content strategist for SaaS, FinTech, and cybersecurity products.
 
 Portfolio: [Georgia Lainiotis — Technical Writer](https://bead-pail-549.notion.site/Georgia-Lainiotis-Technical-Writer-3eb158ae9bbb80279a56c9bf1f6a1f4b)
+
+Also see my how-to guide sample: [How to Verify a Business Customer's Legal Entity Identifier (LEI)](https://github.com/georgialainiotis/lei-howto-guide-sample).
