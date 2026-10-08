@@ -21,7 +21,7 @@ Every example was tested against the live API. Where the vendor's published docu
 
 ## About the author
 
-Technical writer and content strategist for SaaS, FinTech, and cybersecurity products.
+Technical writer and content strategist for SaaS, FinTech, and cybersecurity products. Writes and reviews documentation in English, Portuguese, and Greek, with working proficiency in Spanish.
 
 Portfolio: [Georgia Lainiotis — Technical Writer](https://bead-pail-549.notion.site/Georgia-Lainiotis-Technical-Writer-3eb158ae9bbb80279a56c9bf1f6a1f4b)
 
