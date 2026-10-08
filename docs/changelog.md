@@ -2,7 +2,7 @@
 
 Version history for this documentation. Newest entries first.
 
-**October 2026** — Matched the Confluence edition: corrected section-name capitalization, formatted example requests consistently, and simplified one sentence in the Getting Started guide.
+**October 2026** — Matched the Confluence edition: corrected section-name capitalization, formatted example requests consistently, and simplified one sentence in the Getting Started guide. Linked the README to a related how-to guide sample.
 
 **September 2026** — Published a Markdown edition on GitHub. Added missing section headings, reordered the Get a Single Breach field table to match the live response, made verification-note labels consistent, and corrected minor grammar.
 
