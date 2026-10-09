@@ -27,7 +27,7 @@ Read this before making any request outside a browser. Per HIBP's documentation,
 ## Response codes
 
 | Code | Meaning |
-|------|---------|
+| --- | --- |
 | `200` | Success. The requested data is returned. |
 | `400` | Bad request. The input did not meet the expected format. |
 | `403` | Forbidden. Usually a missing or invalid `User-Agent` header. |
