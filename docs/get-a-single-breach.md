@@ -7,10 +7,11 @@
 ## Parameters
 
 | Parameter | Location | Required | Description |
-|-----------|----------|----------|-------------|
+| --- | --- | --- | --- |
 | `name` | URL path | Yes | The stable breach identifier, for example `Adobe`. Case-insensitive. |
 
 ## Example request
+
 `GET https://haveibeenpwned.com/api/v3/breach/Adobe`
 
 ## Example response
@@ -45,7 +46,7 @@ Field order above reflects the exact order observed in the live response, not an
 ## Field reference
 
 | Field | Type | Description |
-|-------|------|-------------|
+| --- | --- | --- |
 | `Name` | string | A stable, permanent identifier for the breach. It never changes once assigned. Use it, not `Title`, for any code that needs to reliably reference a specific breach. |
 | `Title` | string | A display-friendly label for the breach. It may change over time (for example, if HIBP updates it for clarity), so do not use it as a lookup key. |
 | `Domain` | string | The primary website domain associated with the breach, in standard lowercase. |
