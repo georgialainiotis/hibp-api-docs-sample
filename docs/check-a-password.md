@@ -9,7 +9,7 @@
 ## Parameters
 
 | Parameter | Location | Required | Description |
-|-----------|----------|----------|-------------|
+| --- | --- | --- |
 | `first5HashChars` | URL path | Yes | The first 5 characters of the SHA-1 hash of the password being checked. Not case-sensitive. |
 
 ## Example request
@@ -18,7 +18,7 @@
 
 ## Example response (excerpt, plain text, not JSON)
 
-```
+```text
 003CD215739D7C1B2218670D26F81408237:2
 003D68EB55068C33ACE09247EE4C639306B:29
 00658BFD1E05761042698D19D32CD9F1A8F:15
@@ -42,7 +42,7 @@ The SHA-1 hash of the password "password" is `5BAA61E4C9B93F3F0682250B6CF8331B7E
 **Discrepancy:** the result count is significantly higher than documented. HIBP's documentation says a range search "typically returns approximately 800 hash suffixes." Live testing across five prefixes, spanning the full range of possible values and not only common passwords, consistently returned far more:
 
 | Prefix tested | Result count |
-|---------------|--------------|
+| --- | --- | --- |
 | `00000` (start of range) | 2,509 |
 | `5BAA6` ("password") | 1,978 |
 | `80000` (middle of range) | 1,990 |
